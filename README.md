@@ -1,20 +1,24 @@
 # Segments
+Classes are the basic building blocks of Java programs.   
 
-Given a class [`Point`](src/main/java/com/epam/rd/autotasks/segments/Point.java),
-and a skeleton of class [`Segment`](src/main/java/com/epam/rd/autotasks/segments/Segment.java), 
-implement `Segment` methods:
+It will take you about 3 hours to complete the task. 
 
-* constructor with start and end points as parameters\
-  Ensure that a created segment exists and is not degenerative which means that the start and the end of the segment is not the same point.
+Given: class [`Point`](src/main/java/com/epam/rd/autotasks/segments/Point.java)
+and a skeleton of class [`Segment`](src/main/java/com/epam/rd/autotasks/segments/Segment.java).
+
+Implement `Segment` methods:
+
+* Constructor with start and end points as parameters.\
+    Ensure that a created segment exists and is not degenerative which means that start and the  end of the segment is not the same point.
 * `double length()`\
-  Return length of the segment.
+    Return length of the segment.
 * `Point middle()`\
-  Return a middle point of the segment.
+    Return a middle point of the segment.
 * `Point intersection(Segment another)`\
-  Return a point of the intersection of the current segment and the given one.\
-  Return `null` if there is no such point.\
-  Return `null` if segments are collinear.\
-  Please, note that intersection point must lay on both segments.
+    Return a point of intersection of the current segment and the given one.\
+    Return `null` if there is no such point.\
+    If segments are collinear, return `null`.\
+    *Please note* that intersection point must be on both segments.     
 
 Hints:
 * [Length reference](https://www.wikihow.com/Use-Distance-Formula-to-Find-the-Length-of-a-Line)
