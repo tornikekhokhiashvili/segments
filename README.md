@@ -11,9 +11,9 @@ Implement `Segment` methods:
 * Constructor with start and end points as parameters.\
     Ensure that a created segment exists and is not degenerative which means that start and the  end of the segment is not the same point.
 * `double length()`\
-    Return length of the segment.
+    Returns length of the segment.
 * `Point middle()`\
-    Return a middle point of the segment.
+    Returns a middle point of the segment.
 * `Point intersection(Segment another)`\
     Return a point of intersection of the current segment and the given one.\
     Return `null` if there is no such point.\
