@@ -18,7 +18,7 @@ Implement `Segment` methods:
     Return a point of intersection of the current segment and the given one.\
     Return `null` if there is no such point.\
     If segments are collinear, return `null`.\
-    *Please note* that intersection point must be on both segments.     
+    *Please, note* that intersection point must be on both segments.     
 
 Hints:
 * [Length reference](https://www.wikihow.com/Use-Distance-Formula-to-Find-the-Length-of-a-Line)
