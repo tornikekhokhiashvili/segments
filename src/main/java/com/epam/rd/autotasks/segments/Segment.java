@@ -9,7 +9,7 @@ class Segment {
     private Point end;
     public Segment(Point start, Point end) {
         if(start.getX()==end.getX()&&start.getY()==end.getY()){
-            System.out.println("Segment is degenerative. Start and end points are the same.");
+            throw new IllegalArgumentException("Segment is degenerative. Start and end points are the same.");
         }
         this.start=start;
         this.end=end;
